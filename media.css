@@ -1,0 +1,99 @@
+
+/* media queries for the website */
+
+
+@media screen and (max-width: 1410px) {
+  .navbar {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: block;
+  }
+
+  .action-bar {
+    width: 20vw;
+  }
+
+  .footer-container{
+    flex-direction: column;
+    align-items: center;
+ 
+  }
+
+  .footer-grid{
+    grid-template-columns: repeat(3,1fr);
+    width: 60vw;
+  }
+
+  .footer-policies{
+    width: 60vw;
+  }
+
+  .footer-copyright-container{
+  
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+   gap: 1rem;
+  }
+
+
+  
+}
+
+@media screen and (max-width:572px){
+  .search-bar{
+    display: none;
+  }
+
+  .header{
+    justify-content: space-around;
+  }
+
+  .action-bar {
+    width: 40vw;
+  }
+
+  .myntra-logo {
+    display: none;
+  }
+
+  .footer-grid{
+    gap: 0;
+  }
+
+  .footer-links{
+    font-size: 0.5rem;
+  }
+
+  .footer-app-store{
+    display: none;
+  }
+
+  .footer-copyright-container{
+    justify-content: start;
+    align-items: start;
+  }
+
+  .footer-social-platforms{
+    align-items: center;
+   justify-self: center;
+   gap: 0.3rem;
+  }
+
+  .footer-social-media{
+    height: 5vh;
+  }
+}
+
+
+
+@media  screen and (max-width:262px) {
+  .action-bar {
+    width: 50vw;
+  }
+
+  
+}
+

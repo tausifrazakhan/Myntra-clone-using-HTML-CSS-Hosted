@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f5f6;
+}
+
+/* color variables */
+
+:root {
+  --background-color: #ffffff;
+}
+/* css for header */
+
+.header {
+  top: 0px;
+  position: fixed;
+  display: flex;
+  height: 11vh;
+  width: 100vw;
+  background-color: var(--background-color);
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hamburger-icon{
+  font-size: 1.5rem;
+  display: none;
+}
+
+.myntra-logo {
+  height: 9vh;
+}
+
+.navbar {
+  width: 33vw;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  min-width: 500px;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li sup {
+  color: rgb(226, 24, 91);
+  font-size: 0.6rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 1.6rem 0.5rem;
+  border: 5px solid transparent;
+}
+
+.nav-link:hover {
+  border-bottom: 5px solid rgb(226, 24, 91);
+  overflow: hidden;
+}
+
+.search-bar {
+  background-color: #f5f5f6;
+  border: .1px solid black;
+  height: 5.5vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40vw;
+  color: gray;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  overflow: hidden;
+}
+
+.search-icon {
+  font-size: 1rem;
+}
+
+.search-input {
+  border: none;
+  background-color: #f5f5f6;
+  width: 90%;
+  padding: 0.6rem 0;
+}
+
+
+
+.action-bar {
+  display: flex;
+  width: 15vw;
+  justify-content: space-evenly;
+  
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+  color: black;
+}
+
+.action-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  gap: 0.1rem;
+  color: black;
+}
+
+.action-title {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.action-icon {
+  color: rgb(118, 115, 115);
+  font-size: 1.2rem;
+}
+
+/* css fo main part */
+
+/* css for the banner */
+
+.main-setion {
+  margin-top: 6rem;
+}
+
+.banner-img-container {
+  background-color: var(--background-color);
+}
+
+.banner-img {
+  padding-top: 2.5rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+.brands-heading,
+.category-heading {
+  color: #3e4152;
+  letter-spacing: 0.15rem;
+  font-size: 1.8em;
+  margin: 4rem 2.5rem;
+  font-weight: 700;
+}
+
+.brands-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.category-itmes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.brands-img {
+  width: 245px;
+}
+
+.category-img {
+  width: 300px;
+}
+
+.category-itmes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* css for footer */
+
+.footer {
+  margin-top: 5rem;
+  background-color: #fafbfc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container {
+  margin-top: 3rem;
+  width: 65vw;
+  display: flex;
+  
+  
+}
+
+.footer-grid {
+  padding: 1rem 0.5rem;
+  width: 20vw;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-list li {
+  list-style: none;
+}
+
+.footer-links {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+/* css for footer social media */
+
+.footer-social-media {
+  padding: 1rem 0.5rem;
+  width: 25vw;
+  /* width: 35vw; */
+  height: 30vh;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+}
+
+.footer-app-store {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: start;
+  height: 15vh;
+}
+
+.footer-app-store-container {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+}
+
+.footer-app-store-heading {
+  font-size: 0.7rem;
+}
+
+.footer-app-store-links {
+  text-decoration: none;
+ 
+}
+.footer-app-store-img {
+  border-radius: 0.5rem;
+}
+#footer-app-store-img1 {
+  height: 7vh;
+}
+
+#footer-app-store-img2 {
+  height: 7.4vh;
+}
+
+.footer-social-platforms {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+ justify-self: flex-start;
+}
+
+.social-media-platform-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.footer-social-platform-link {
+  text-decoration: none;
+}
+
+#facebook-logo {
+  height: 3vh;
+}
+
+#youtube-logo {
+  height: 3vh;
+}
+
+#insta-logo {
+  height: 3vh;
+}
+
+#x-logo {
+  height: 3vh;
+}
+
+.footer-policies {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 25vw;
+}
+
+.policy-container {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem 0.5rem;
+}
+
+#gaurantee-img {
+  height: 7vh;
+}
+
+#return-img {
+  height: 7vh;
+}
+
+.policy-desc {
+  font-size: 1rem;
+  color: gray;
+}
+
+.policy-desc b {
+  color: black;
+}
+
+.top-search-fieldset {
+  width: 65vw;
+  margin-top: 2rem;
+  border-top: 2px solid rgb(173, 167, 167);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.search-desc {
+  font-size: 1rem;
+  color: gray;
+}
+
+.search-desc-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.footer-copyright-container {
+  width: 65vw;
+  display: flex;
+  justify-content: center;
+  gap: 9rem;
+  border-bottom: 2px solid rgb(173, 167, 167);
+  margin: 2rem 0;
+  padding: 2rem 0;
+}
+
+.copyright-para {
+  font-size: 1rem;
+  color: gray;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
